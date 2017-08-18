@@ -952,3 +952,16 @@ body {
 .modal-content .btn:active span {
   opacity: 0.3;
 }
+.option-item .option-btn2:hover {
+  background: #00bc6c;
+}
+.option-item .option-btn2:active {
+  background: #00aa62;
+  
+}
+.option-item .option-btn3:hover {
+  background: #eab534;
+}
+.option-item .option-btn3:active {
+  background: #e5a722;
+}
