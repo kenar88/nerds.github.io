@@ -770,7 +770,7 @@ body {
 .catalog-item-img {
   position: relative;
   width: 360px;
-  height: 620px;
+  height: 600px;
   padding: 0 20px;
   padding-bottom: 30px;
   borde: 1px solid #eeeeee;
@@ -782,14 +782,15 @@ body {
   position: absolute;
   width: 360px;
   height: 230px;
-  background: #eeeeee;
-  bottom: 37px;
+  background: rgba(238, 238, 238, 0.8);
+  bottom: 55px;
   text-align: center;
   }
 .catalog-item-hover b {
   display: block;
   padding-top: 30px;
   font-weight: 700;
+  opacity: 1;
 }
 .catalog-item-hover p {
   display: block;
@@ -798,10 +799,11 @@ body {
   color: #666666;
   font-size: 16px;
   line-height: 18px;
+  opacity: 1;
 }
 .catalog-item-hover .btn {
   min-width: 200px;
-  
+  opacity: 1;
 }
 .catalog-item-hover .btn:active span {
   opacity: 0.3;
